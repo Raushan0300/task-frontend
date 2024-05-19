@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8000";
+// const API_URL = "http://localhost:8000";
+const API_URL = "https://task-backend-nrkr.onrender.com";
 
 const postData = async (url: string, data: any) => {
   try {
