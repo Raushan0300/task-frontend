@@ -1,0 +1,43 @@
+.addBoardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.addBoardContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.addBoardContentLabel {
+  margin-right: 10px;
+}
+.addBoardContentInput {
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.addBoardContentButton{
+  padding: 5px 10px;
+  background-color: #0079bf;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addBoardCancelButton {
+  padding: 5px 10px;
+  background-color: #ebecf0;
+  color: #172b4d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .addBoardContentInput {
+      width: 50%;
+    }
+}

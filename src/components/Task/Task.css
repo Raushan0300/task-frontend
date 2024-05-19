@@ -1,0 +1,137 @@
+.taskMainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 0;
+    padding: 2vh 5vw;
+    border-radius: 10px;
+}
+.taskHeader{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2vh 0;
+}
+.taskCardContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    margin: 3vh;
+}
+.taskCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.taskCardHeader{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2vh 0;
+}
+.taskCardBody{
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    height: 15px;
+    width: 15vw;
+    font-size: 1.2rem;
+}
+.taskCardBodyNoTask{
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    border-radius: 10px;
+    color: #000;
+    height: 15px;
+    width: 15vw;
+    font-size: 1.2rem;
+}
+.taskCardBodyAddBtn{
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    border-radius: 10px;
+    background-color: #2c70dd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    height: 15px;
+    width: 15vw;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.taskCardAddContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+}
+.taskCardAddBtn{
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    background-color: #2c70dd;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.taskCardCancelBtn{
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.taskCardInput{
+    padding: 1vh;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    width: 15vw;
+    margin-bottom: 2vh;
+}
+
+@media screen and (max-width: 768px) {
+    .taskCardContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .taskCard{
+        width: 80%;
+        margin: 2vh 0;
+    }
+    .taskCardBody{
+        width: 80%;
+    }
+    .taskCardBodyNoTask{
+        width: 80%;
+    }
+    .taskCardBodyAddBtn{
+        width: 80%;
+    }
+    .taskCardInput{
+        width: 80%;
+    }
+    
+}

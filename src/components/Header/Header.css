@@ -1,0 +1,22 @@
+.headerTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+.headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vh 0;
+  padding: 2vh 0;
+  border-radius: 10px;
+}
+.headerLogout {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #206fde;
+  cursor: pointer;
+  text-decoration: underline;
+}
